@@ -1,38 +1,30 @@
-.App {
-  text-align: center;
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  font-family: Monaco, Courier;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.terminal {
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.terminal-header {
+  padding: 1rem;
+  background-color: #265b89;
+  border: 5px solid #265b89;
+  color: #fff;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.terminal-window {
+  padding: 1rem;
+  background-color: #000;
+  color: #fff;
+  border: 5px solid #265b89;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.current-message {
+  margin-left: 1rem;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  outline: none;
 }
